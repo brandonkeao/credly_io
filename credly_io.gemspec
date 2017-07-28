@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Brandon Keao"]
   spec.email         = ["Brandon.Keao@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = "This is a gem to manage the connection with Credly and help manage badges for a user"
+  spec.description   = "Uses HTTP to connect to Credly"
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
@@ -33,4 +33,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.15"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+
+  spec.add_dependency "httparty", "~> 0.15.6"
 end

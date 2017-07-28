@@ -1,5 +1,11 @@
 require "credly_io/version"
+require "httparty"
 
 module CredlyIo
-  # Your code goes here...
+  include HTTParty
+  base_uri "animatedgif.me"
+
+  def self.find(id)
+    get("/gifs/#{id}.json")
+  end
 end
