@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "This is a gem to manage the connection with Credly and help manage badges for a user"
   spec.description   = "Uses HTTP to connect to Credly"
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/brandonkeao/credly_io"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
